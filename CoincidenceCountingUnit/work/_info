@@ -1,0 +1,99 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA/20.1
+Esignal_counter
+Z0 w1698892266
+Z1 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 0
+Z4 dC:/Users/ACER/Documents/Trabajo/Investigacion/LabQO/QO-Simulations/CoincidenceCountingUnit
+Z5 8C:/Users/ACER/Documents/Trabajo/Investigacion/LabQO/QO-Simulations/CoincidenceCountingUnit/signal_counter.vhd
+Z6 FC:/Users/ACER/Documents/Trabajo/Investigacion/LabQO/QO-Simulations/CoincidenceCountingUnit/signal_counter.vhd
+l0
+L5 1
+V^ETNOLT1o41915YGJ6D?P2
+!s100 YB`3`KYJScGe9QUGRlEIH1
+Z7 OV;C;2020.1;71
+32
+Z8 !s110 1699067117
+!i10b 1
+Z9 !s108 1699067117.000000
+Z10 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/ACER/Documents/Trabajo/Investigacion/LabQO/QO-Simulations/CoincidenceCountingUnit/signal_counter.vhd|
+Z11 !s107 C:/Users/ACER/Documents/Trabajo/Investigacion/LabQO/QO-Simulations/CoincidenceCountingUnit/signal_counter.vhd|
+!i113 1
+Z12 o-work work -2002 -explicit
+Z13 tExplicit 1 CvgOpt 0
+Aarch
+R1
+R2
+R3
+DEx4 work 14 signal_counter 0 22 ^ETNOLT1o41915YGJ6D?P2
+!i122 0
+l25
+L17 44
+V2K=5ed49lfXF5KD`5K0`:3
+!s100 NUH4Hzl3[Za=Bh:3O6>eh1
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Esignal_counter_tb
+Z14 w1698892572
+Z15 DPx4 ieee 9 math_real 0 22 gNk<PdFJ<XNPcfef`f?Z81
+R1
+R2
+R3
+!i122 1
+R4
+Z16 8C:/Users/ACER/Documents/Trabajo/Investigacion/LabQO/QO-Simulations/CoincidenceCountingUnit/signal_counter_tb.vhd
+Z17 FC:/Users/ACER/Documents/Trabajo/Investigacion/LabQO/QO-Simulations/CoincidenceCountingUnit/signal_counter_tb.vhd
+l0
+L6 1
+VN_MIE0>A=G3GX:nmBXd[k0
+!s100 _MV=ncTR4d=7KmlEg_SUQ1
+R7
+32
+R8
+!i10b 1
+R9
+Z18 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/ACER/Documents/Trabajo/Investigacion/LabQO/QO-Simulations/CoincidenceCountingUnit/signal_counter_tb.vhd|
+!s107 C:/Users/ACER/Documents/Trabajo/Investigacion/LabQO/QO-Simulations/CoincidenceCountingUnit/signal_counter_tb.vhd|
+!i113 1
+R12
+R13
+Asim
+R15
+R1
+R2
+R3
+DEx4 work 17 signal_counter_tb 0 22 N_MIE0>A=G3GX:nmBXd[k0
+!i122 1
+l33
+L9 62
+VAnNm>I;@g`9B<4QEVbz:i2
+!s100 K?aU8d;64:Hnc<BM<AJlc2
+R7
+32
+R8
+!i10b 1
+R9
+R18
+Z19 !s107 C:/Users/ACER/Documents/Trabajo/Investigacion/LabQO/QO-Simulations/CoincidenceCountingUnit/signal_counter_tb.vhd|
+!i113 1
+R12
+R13

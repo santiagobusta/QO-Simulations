@@ -1,0 +1,27 @@
+quit
+# Compile of signal_counter.vhd was successful.
+# Compile of signal_counter_tb.vhd was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.signal_counter_tb
+# vsim -gui work.signal_counter_tb 
+# Start time: 22:05:27 on Nov 03,2023
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.math_real(body)
+# Loading work.signal_counter_tb(sim)
+# Loading work.signal_counter(arch)
+add wave -position end  sim:/signal_counter_tb/r_clock
+add wave -position end  sim:/signal_counter_tb/r_enable
+add wave -position end  sim:/signal_counter_tb/r_signal1
+add wave -position end  sim:/signal_counter_tb/r_signal2
+add wave -position end  sim:/signal_counter_tb/w_counter1
+add wave -position end  sim:/signal_counter_tb/w_counter2
+add wave -position end  sim:/signal_counter_tb/w_counter12
+run
+run
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf C:/Users/ACER/Documents/Trabajo/Investigacion/LabQO/QO-Simulations/CoincidenceCountingUnit/wave.do
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf C:/Users/ACER/Documents/Trabajo/Investigacion/LabQO/QO-Simulations/CoincidenceCountingUnit/wave.do
+# End time: 22:06:33 on Nov 03,2023, Elapsed time: 0:01:06
+# Errors: 0, Warnings: 7
