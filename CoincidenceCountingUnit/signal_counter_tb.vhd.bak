@@ -48,7 +48,7 @@ begin
 
   p_signal_gen : process
     variable r : real;
-    variable seed1 : positive := 2;
+    variable seed1 : positive := 1;
     variable seed2 : positive := 2;
   begin
     uniform(seed1,seed2,r);

@@ -1,10 +1,9 @@
-quit
 # Compile of signal_counter.vhd was successful.
 # Compile of signal_counter_tb.vhd was successful.
 # 2 compiles, 0 failed with no errors.
 vsim -gui work.signal_counter_tb
 # vsim -gui work.signal_counter_tb 
-# Start time: 22:05:27 on Nov 03,2023
+# Start time: 20:34:51 on Nov 29,2023
 # Loading std.standard
 # Loading std.textio(body)
 # Loading ieee.std_logic_1164(body)
@@ -12,16 +11,480 @@ vsim -gui work.signal_counter_tb
 # Loading ieee.math_real(body)
 # Loading work.signal_counter_tb(sim)
 # Loading work.signal_counter(arch)
-add wave -position end  sim:/signal_counter_tb/r_clock
-add wave -position end  sim:/signal_counter_tb/r_enable
-add wave -position end  sim:/signal_counter_tb/r_signal1
-add wave -position end  sim:/signal_counter_tb/r_signal2
-add wave -position end  sim:/signal_counter_tb/w_counter1
-add wave -position end  sim:/signal_counter_tb/w_counter2
-add wave -position end  sim:/signal_counter_tb/w_counter12
+add wave -position end  sim:/signal_counter_tb/UUT/i_signal1
+add wave -position end  sim:/signal_counter_tb/UUT/i_signal2
+add wave -position end  sim:/signal_counter_tb/UUT/o_counter1
+add wave -position end  sim:/signal_counter_tb/UUT/o_counter2
+add wave -position end  sim:/signal_counter_tb/UUT/o_counter12
 run
 run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# Break key hit
+# Break key hit
+quit -sim
+# End time: 20:38:48 on Nov 29,2023, Elapsed time: 0:03:57
+# Errors: 0, Warnings: 2
+# Compile of signal_counter.vhd was successful.
+# Compile of signal_counter_tb.vhd was successful.
+# 2 compiles, 0 failed with no errors.
+# Compile of signal_counter.vhd was successful.
+# Compile of signal_counter_tb.vhd was successful.
+# 2 compiles, 0 failed with no errors.
+# Compile of signal_counter.vhd was successful.
+# Compile of signal_counter_tb.vhd was successful.
+# 2 compiles, 0 failed with no errors.
+# Compile of signal_counter.vhd failed with 19 errors.
+# Compile of signal_counter_tb.vhd was successful.
+# 2 compiles, 1 failed with 19 errors.
+# Compile of signal_counter.vhd failed with 14 errors.
+# Compile of signal_counter_tb.vhd was successful.
+# 2 compiles, 1 failed with 14 errors.
+# Compile of signal_counter.vhd failed with 6 errors.
+# Compile of signal_counter_tb.vhd was successful.
+# 2 compiles, 1 failed with 6 errors.
+# Compile of signal_counter.vhd failed with 6 errors.
+# Compile of signal_counter_tb.vhd was successful.
+# 2 compiles, 1 failed with 6 errors.
+# Compile of signal_counter.vhd was successful.
+# Compile of signal_counter_tb.vhd was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.signal_counter_tb
+# vsim -gui work.signal_counter_tb 
+# Start time: 21:18:26 on Nov 29,2023
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.math_real(body)
+# Loading work.signal_counter_tb(sim)
+# Loading work.signal_counter(arch)
+add wave -position insertpoint  \
+sim:/signal_counter_tb/r_clock \
+sim:/signal_counter_tb/r_signal1 \
+sim:/signal_counter_tb/r_signal2 \
+sim:/signal_counter_tb/w_counter1 \
+sim:/signal_counter_tb/w_counter2 \
+sim:/signal_counter_tb/w_counter12
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+quit -sim
+# End time: 21:21:28 on Nov 29,2023, Elapsed time: 0:03:02
+# Errors: 0, Warnings: 9
+# Compile of signal_counter.vhd failed with 12 errors.
+# Compile of signal_counter_tb.vhd was successful.
+# 2 compiles, 1 failed with 12 errors.
+# Compile of signal_counter.vhd was successful.
+# Compile of signal_counter_tb.vhd was successful.
+# 2 compiles, 0 failed with no errors.
+# Load canceled
+vsim -gui work.signal_counter_tb
+# vsim -gui work.signal_counter_tb 
+# Start time: 21:24:08 on Nov 29,2023
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.math_real(body)
+# Loading work.signal_counter_tb(sim)
+# Loading work.signal_counter(arch)
+quit -sim
+# End time: 21:24:19 on Nov 29,2023, Elapsed time: 0:00:11
+# Errors: 0, Warnings: 3
+# Compile of signal_counter.vhd was successful.
+# Compile of signal_counter_tb.vhd was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.signal_counter_tb
+# vsim -gui work.signal_counter_tb 
+# Start time: 21:24:39 on Nov 29,2023
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.math_real(body)
+# Loading work.signal_counter_tb(sim)
+# Loading work.signal_counter(arch)
+add wave -position insertpoint  \
+sim:/signal_counter_tb/r_clock \
+sim:/signal_counter_tb/r_signal1 \
+sim:/signal_counter_tb/r_signal2 \
+sim:/signal_counter_tb/w_counter1 \
+sim:/signal_counter_tb/w_counter2 \
+sim:/signal_counter_tb/w_counter12
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+quit -sim
+# End time: 21:28:29 on Nov 29,2023, Elapsed time: 0:03:50
+# Errors: 0, Warnings: 2
+# Compile of signal_counter.vhd was successful.
+# Compile of signal_counter_tb.vhd was successful.
+# 2 compiles, 0 failed with no errors.
+# Compile of signal_counter.vhd failed with 10 errors.
+# Compile of signal_counter_tb.vhd was successful.
+# 2 compiles, 1 failed with 10 errors.
+# Compile of signal_counter.vhd failed with 10 errors.
+# Compile of signal_counter_tb.vhd was successful.
+# 2 compiles, 1 failed with 10 errors.
+# Compile of signal_counter.vhd was successful.
+# Compile of signal_counter_tb.vhd was successful.
+# 2 compiles, 0 failed with no errors.
+# Compile of signal_counter.vhd was successful.
+# Compile of signal_counter_tb.vhd was successful.
+# 2 compiles, 0 failed with no errors.
+# Compile of signal_counter.vhd was successful.
+# Compile of signal_counter_tb.vhd failed with 3 errors.
+# 2 compiles, 1 failed with 3 errors.
+# Compile of signal_counter.vhd was successful.
+# Compile of signal_counter_tb.vhd failed with 4 errors.
+# 2 compiles, 1 failed with 4 errors.
+# Compile of signal_counter.vhd was successful.
+# Compile of signal_counter_tb.vhd was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.signal_counter_tb
+# vsim -gui work.signal_counter_tb 
+# Start time: 00:45:52 on Nov 30,2023
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.math_real(body)
+# Loading work.signal_counter_tb(sim)
+# Loading work.signal_counter(arch)
+add wave -position insertpoint  \
+sim:/signal_counter_tb/r_clock \
+sim:/signal_counter_tb/r_signal1 \
+sim:/signal_counter_tb/r_signal2 \
+sim:/signal_counter_tb/w_counter1 \
+sim:/signal_counter_tb/w_counter2 \
+sim:/signal_counter_tb/w_counter12
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# Break key hit
+quit -sim
+# End time: 00:47:01 on Nov 30,2023, Elapsed time: 0:01:09
+# Errors: 0, Warnings: 9
+vsim -gui work.signal_counter_tb
+# vsim -gui work.signal_counter_tb 
+# Start time: 00:48:00 on Nov 30,2023
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.math_real(body)
+# Loading work.signal_counter_tb(sim)
+# Loading work.signal_counter(arch)
+quit -sim
+# End time: 00:48:13 on Nov 30,2023, Elapsed time: 0:00:13
+# Errors: 0, Warnings: 1
+# Compile of signal_counter.vhd was successful.
+# Compile of signal_counter_tb.vhd was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.signal_counter_tb
+# vsim -gui work.signal_counter_tb 
+# Start time: 00:48:37 on Nov 30,2023
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.math_real(body)
+# Loading work.signal_counter_tb(sim)
+# Loading work.signal_counter(arch)
+add wave -position insertpoint  \
+sim:/signal_counter_tb/r_clock \
+sim:/signal_counter_tb/r_signal1 \
+sim:/signal_counter_tb/r_signal2 \
+sim:/signal_counter_tb/w_counter1 \
+sim:/signal_counter_tb/w_counter2 \
+sim:/signal_counter_tb/w_counter12
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# image file format "bmp" is unknown
+# image file format "bmp" is unknown
 write format wave -window .main_pane.wave.interior.cs.body.pw.wf C:/Users/ACER/Documents/Trabajo/Investigacion/LabQO/QO-Simulations/CoincidenceCountingUnit/wave.do
-write format wave -window .main_pane.wave.interior.cs.body.pw.wf C:/Users/ACER/Documents/Trabajo/Investigacion/LabQO/QO-Simulations/CoincidenceCountingUnit/wave.do
-# End time: 22:06:33 on Nov 03,2023, Elapsed time: 0:01:06
-# Errors: 0, Warnings: 7
+# image file format "bmp" is unknown
+quit -sim
+# End time: 01:33:29 on Nov 30,2023, Elapsed time: 0:44:52
+# Errors: 0, Warnings: 2
+vsim -gui work.signal_counter_tb
+# vsim -gui work.signal_counter_tb 
+# Start time: 01:33:37 on Nov 30,2023
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.math_real(body)
+# Loading work.signal_counter_tb(sim)
+# Loading work.signal_counter(arch)
+add wave -position insertpoint  \
+sim:/signal_counter_tb/r_clock \
+sim:/signal_counter_tb/r_signal1 \
+sim:/signal_counter_tb/r_signal2 \
+sim:/signal_counter_tb/w_counter1 \
+sim:/signal_counter_tb/w_counter2 \
+sim:/signal_counter_tb/w_counter12
+run
+add wave -position insertpoint  \
+sim:/signal_counter_tb/w_counter1(3)
+add wave -position insertpoint  \
+sim:/signal_counter_tb/w_counter1(2)
+# image file format "bmp" is unknown
+quit -sim
+vsim -gui work.signal_counter_tb
+# End time: 01:46:41 on Nov 30,2023, Elapsed time: 0:13:04
+# Errors: 0, Warnings: 1
+# vsim -gui work.signal_counter_tb 
+# Start time: 01:46:41 on Nov 30,2023
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.math_real(body)
+# Loading work.signal_counter_tb(sim)
+# Loading work.signal_counter(arch)
+add wave -position insertpoint  \
+sim:/signal_counter_tb/r_clock \
+sim:/signal_counter_tb/r_signal1 \
+sim:/signal_counter_tb/r_signal2
+add wave -position insertpoint  \
+sim:/signal_counter_tb/w_counter1(2) \
+sim:/signal_counter_tb/w_counter1(1) \
+sim:/signal_counter_tb/w_counter1(0)
+add wave -position insertpoint  \
+sim:/signal_counter_tb/w_counter2(2) \
+sim:/signal_counter_tb/w_counter2(1) \
+sim:/signal_counter_tb/w_counter2(0)
+add wave -position insertpoint  \
+sim:/signal_counter_tb/w_counter12(2) \
+sim:/signal_counter_tb/w_counter12(1) \
+sim:/signal_counter_tb/w_counter12(0)
+run
+quit -sim
+# End time: 01:47:55 on Nov 30,2023, Elapsed time: 0:01:14
+# Errors: 0, Warnings: 1
+# Compile of signal_counter.vhd was successful.
+# Compile of signal_counter_tb.vhd was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.signal_counter_tb
+# vsim -gui work.signal_counter_tb 
+# Start time: 01:48:52 on Nov 30,2023
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.math_real(body)
+# Loading work.signal_counter_tb(sim)
+# Loading work.signal_counter(arch)
+view -new wave
+# -new not supported on PE
+add wave -position insertpoint  \
+sim:/signal_counter_tb/r_clock \
+sim:/signal_counter_tb/r_signal1 \
+sim:/signal_counter_tb/r_signal2
+add wave -position insertpoint  \
+sim:/signal_counter_tb/w_counter1(2) \
+sim:/signal_counter_tb/w_counter1(1) \
+sim:/signal_counter_tb/w_counter1(0)
+add wave -position insertpoint  \
+sim:/signal_counter_tb/w_counter2(2) \
+sim:/signal_counter_tb/w_counter2(1) \
+sim:/signal_counter_tb/w_counter2(0)
+add wave -position insertpoint  \
+sim:/signal_counter_tb/w_counter12(2) \
+sim:/signal_counter_tb/w_counter12(1) \
+sim:/signal_counter_tb/w_counter12(0)
+run
+quit -sim
+# End time: 01:50:11 on Nov 30,2023, Elapsed time: 0:01:19
+# Errors: 0, Warnings: 2
+# Compile of signal_counter.vhd was successful.
+# Compile of signal_counter_tb.vhd was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.signal_counter_tb
+# vsim -gui work.signal_counter_tb 
+# Start time: 02:04:00 on Nov 30,2023
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.math_real(body)
+# Loading work.signal_counter_tb(sim)
+# Loading work.signal_counter(arch)
+add wave -position insertpoint  \
+sim:/signal_counter_tb/r_clock \
+sim:/signal_counter_tb/r_signal1 \
+sim:/signal_counter_tb/r_signal2
+run
+add wave -position insertpoint  \
+sim:/signal_counter_tb/w_counter1(2) \
+sim:/signal_counter_tb/w_counter1(1) \
+sim:/signal_counter_tb/w_counter1(0)
+add wave -position insertpoint  \
+sim:/signal_counter_tb/w_counter2(2) \
+sim:/signal_counter_tb/w_counter2(1) \
+sim:/signal_counter_tb/w_counter2(0)
+add wave -position insertpoint  \
+sim:/signal_counter_tb/w_counter12(2) \
+sim:/signal_counter_tb/w_counter12(1) \
+sim:/signal_counter_tb/w_counter12(0)
+run
+quit -sim
+# End time: 02:05:01 on Nov 30,2023, Elapsed time: 0:01:01
+# Errors: 0, Warnings: 2
+vsim -gui work.signal_counter_tb
+# vsim -gui work.signal_counter_tb 
+# Start time: 02:05:08 on Nov 30,2023
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.math_real(body)
+# Loading work.signal_counter_tb(sim)
+# Loading work.signal_counter(arch)
+add wave -position insertpoint  \
+sim:/signal_counter_tb/r_clock \
+sim:/signal_counter_tb/r_signal1 \
+sim:/signal_counter_tb/r_signal2
+add wave -position insertpoint  \
+sim:/signal_counter_tb/w_counter1(2) \
+sim:/signal_counter_tb/w_counter1(1) \
+sim:/signal_counter_tb/w_counter1(0)
+add wave -position insertpoint  \
+sim:/signal_counter_tb/w_counter2(2) \
+sim:/signal_counter_tb/w_counter2(1) \
+sim:/signal_counter_tb/w_counter2(0)
+add wave -position insertpoint  \
+sim:/signal_counter_tb/w_counter12(2) \
+sim:/signal_counter_tb/w_counter12(1) \
+sim:/signal_counter_tb/w_counter12(0)
+run
+# Break key hit
+quit -sim
+# End time: 02:06:53 on Nov 30,2023, Elapsed time: 0:01:45
+# Errors: 0, Warnings: 1
+vsim -gui work.signal_counter_tb
+# vsim -gui work.signal_counter_tb 
+# Start time: 02:08:16 on Nov 30,2023
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.math_real(body)
+# Loading work.signal_counter_tb(sim)
+# Loading work.signal_counter(arch)
+add wave -position insertpoint  \
+sim:/signal_counter_tb/r_clock \
+sim:/signal_counter_tb/r_signal1 \
+sim:/signal_counter_tb/r_signal2 \
+sim:/signal_counter_tb/w_counter1 \
+sim:/signal_counter_tb/w_counter2 \
+sim:/signal_counter_tb/w_counter12
+run

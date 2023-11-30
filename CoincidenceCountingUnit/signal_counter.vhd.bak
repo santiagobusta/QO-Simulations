@@ -53,19 +53,16 @@ begin
       toggle2 <= '1';
     end if;
 
-    if toggle12 = '1' then
-      if i_signal1 = '1' and i_signal2 = '1' then
-        toggle12 <= '0';
-        if counter12 = max_count then
-          counter12 <= 0;
-        else
-          counter12 <= counter12 + 1;
-        end if;
+    if i_signal1 = '1' and i_signal2 = '1' and toggle12 = '1' then
+      toggle12 <= '0';
+      if counter12 = max_count then
+        counter12 <= 0;
+      else
+        counter12 <= counter12 + 1;
       end if;
-    else
-      if (i_signal1 = '0' or i_signal2 = '0') then
-        toggle12 <= '1';
-      end if;
+    end if;
+    if (i_signal1 = '0' or i_signal2 = '0') and toggle12 = '0' then
+      toggle12 <= '1';
     end if;
 
   end if;
