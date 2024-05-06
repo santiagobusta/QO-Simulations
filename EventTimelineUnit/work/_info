@@ -1,0 +1,99 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/ACER/Documents/Trabajo/Investigacion/LabQO/QO-Simulations/CoincidenceCountingUnit
+Etimeline_gen
+Z0 w1713821843
+Z1 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 60
+Z4 dC:/Users/ACER/Documents/Trabajo/Investigacion/LabQO/QO-Simulations/EventTimelineUnit
+Z5 8C:/Users/ACER/Documents/Trabajo/Investigacion/LabQO/QO-Simulations/EventTimelineUnit/timeline_gen.vhd
+Z6 FC:/Users/ACER/Documents/Trabajo/Investigacion/LabQO/QO-Simulations/EventTimelineUnit/timeline_gen.vhd
+l0
+L5 1
+Vkin@1<8Wdc@n[j<zRTfRQ1
+!s100 [D[^^0R34`@bRS<4c`0KQ1
+Z7 OV;C;2020.1;71
+32
+Z8 !s110 1713826166
+!i10b 1
+Z9 !s108 1713826166.000000
+Z10 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/ACER/Documents/Trabajo/Investigacion/LabQO/QO-Simulations/EventTimelineUnit/timeline_gen.vhd|
+Z11 !s107 C:/Users/ACER/Documents/Trabajo/Investigacion/LabQO/QO-Simulations/EventTimelineUnit/timeline_gen.vhd|
+!i113 1
+Z12 o-work work -2002 -explicit
+Z13 tExplicit 1 CvgOpt 0
+Aarch
+R1
+R2
+R3
+DEx4 work 12 timeline_gen 0 22 kin@1<8Wdc@n[j<zRTfRQ1
+!i122 60
+l25
+L16 55
+VF8i7?PPkld:Z0Si3Tojhz0
+!s100 4FK=<QXMa;G0gE49RBYWc3
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Etimeline_gen_tb
+Z14 w1713826154
+Z15 DPx4 ieee 9 math_real 0 22 gNk<PdFJ<XNPcfef`f?Z81
+R1
+R2
+R3
+!i122 61
+R4
+Z16 8C:/Users/ACER/Documents/Trabajo/Investigacion/LabQO/QO-Simulations/EventTimelineUnit/timeline_gen_tb.vhd
+Z17 FC:/Users/ACER/Documents/Trabajo/Investigacion/LabQO/QO-Simulations/EventTimelineUnit/timeline_gen_tb.vhd
+l0
+L6 1
+V5lSU3@`eDe3E1_N@b]9DE1
+!s100 7GPeDdS?dO@6?KTF[:@1b3
+R7
+32
+R8
+!i10b 1
+R9
+Z18 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/ACER/Documents/Trabajo/Investigacion/LabQO/QO-Simulations/EventTimelineUnit/timeline_gen_tb.vhd|
+Z19 !s107 C:/Users/ACER/Documents/Trabajo/Investigacion/LabQO/QO-Simulations/EventTimelineUnit/timeline_gen_tb.vhd|
+!i113 1
+R12
+R13
+Asim
+R15
+R1
+R2
+R3
+Z20 DEx4 work 15 timeline_gen_tb 0 22 5lSU3@`eDe3E1_N@b]9DE1
+!i122 61
+l31
+Z21 L9 87
+Vc5Hdk1K8meMobXR8F@<z12
+!s100 >>ST:G@[KgG>T7AjH24`d2
+R7
+32
+R8
+!i10b 1
+R9
+R18
+R19
+!i113 1
+R12
+R13

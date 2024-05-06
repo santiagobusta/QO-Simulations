@@ -1,0 +1,70 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.numeric_std.all;
+ 
+entity timeline_gen is
+  port (
+    i_clock      : in  std_logic;
+    i_signal1	 : in  std_logic;
+    i_signal2    : in  std_logic;
+    o_clock      : out std_logic_vector(15 downto 0); -- 16-bit signal output
+    o_event1     : out std_logic;
+    o_event2     : out std_logic
+    );
+end timeline_gen;
+
+architecture arch of timeline_gen is
+
+  constant max_count : natural := 65535; -- 16-bit max unsigned int
+  signal toggle1: std_logic := '1';
+  signal toggle2: std_logic := '1';
+  signal event1:  std_logic := '0';
+  signal event2:  std_logic := '0';
+  signal counter : natural range 0 to max_count;
+
+begin
+
+  counting : process (i_clock) is
+  begin
+  if rising_edge(i_clock) then
+
+    if event1 = '1' then
+      event1 <= '0';
+    end if;
+
+    if event2 = '1' then
+      event2 <= '0';
+    end if;
+
+    if counter = max_count then
+      counter <= 0;
+    else
+      counter <= counter + 1;
+    end if;
+
+    if i_signal1 = '1' and toggle1 = '1' then
+      toggle1 <= '0';
+      event1 <= '1';
+    end if;
+
+    if i_signal1 = '0' and toggle1 = '0' then
+      toggle1 <= '1';
+    end if;
+
+    if i_signal2 = '1' and toggle2 = '1' then
+      toggle2 <= '0';
+      event2 <= '1';
+   end if;
+
+    if i_signal2 = '0' and toggle2 = '0' then
+      toggle2 <= '1';
+    end if;
+
+  end if;
+  end process counting;
+
+  o_clock <= std_logic_vector(to_unsigned(counter, o_clock'length));
+  o_event1 <= event1;
+  o_event2 <= event2;
+
+end arch;

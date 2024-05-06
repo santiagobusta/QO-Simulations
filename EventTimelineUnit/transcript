@@ -1,0 +1,174 @@
+# Compile of timeline_gen.vhd was successful.
+# Compile of timeline_gen_tb.vhd was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.timeline_gen_tb
+# vsim -gui work.timeline_gen_tb 
+# Start time: 17:30:53 on Apr 22,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.math_real(body)
+# Loading work.timeline_gen_tb(sim)
+# Loading work.timeline_gen(arch)
+add wave -position end  sim:/timeline_gen_tb/r_clock
+add wave -position end  sim:/timeline_gen_tb/r_signal1
+add wave -position end  sim:/timeline_gen_tb/r_signal2
+add wave -position end  sim:/timeline_gen_tb/w_clock
+add wave -position end  sim:/timeline_gen_tb/w_event1
+add wave -position end  sim:/timeline_gen_tb/w_event2
+run
+# Break key hit
+# Break in Process p_signal1_gen at C:/Users/ACER/Documents/Trabajo/Investigacion/LabQO/QO-Simulations/EventTimelineUnit/timeline_gen_tb.vhd line 66
+quit -sim
+# End time: 17:32:24 on Apr 22,2024, Elapsed time: 0:01:31
+# Errors: 0, Warnings: 2
+# Compile of timeline_gen.vhd was successful.
+# Compile of timeline_gen_tb.vhd was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.timeline_gen_tb
+# vsim -gui work.timeline_gen_tb 
+# Start time: 17:33:02 on Apr 22,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.math_real(body)
+# Loading work.timeline_gen_tb(sim)
+# Loading work.timeline_gen(arch)
+add wave -position end  sim:/timeline_gen_tb/r_clock
+add wave -position end  sim:/timeline_gen_tb/r_signal1
+add wave -position end  sim:/timeline_gen_tb/r_signal2
+add wave -position end  sim:/timeline_gen_tb/w_clock
+add wave -position end  sim:/timeline_gen_tb/w_event1
+add wave -position end  sim:/timeline_gen_tb/w_event2
+run
+run
+# Break key hit
+# Break in Process p_signal1_gen at C:/Users/ACER/Documents/Trabajo/Investigacion/LabQO/QO-Simulations/EventTimelineUnit/timeline_gen_tb.vhd line 66
+quit -sim
+# End time: 17:34:06 on Apr 22,2024, Elapsed time: 0:01:04
+# Errors: 0, Warnings: 2
+# Compile of timeline_gen.vhd was successful.
+# Compile of timeline_gen_tb.vhd was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.timeline_gen_tb
+# vsim -gui work.timeline_gen_tb 
+# Start time: 17:35:20 on Apr 22,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.math_real(body)
+# Loading work.timeline_gen_tb(sim)
+# Loading work.timeline_gen(arch)
+add wave -position end  sim:/timeline_gen_tb/r_clock
+add wave -position end  sim:/timeline_gen_tb/r_signal1
+add wave -position end  sim:/timeline_gen_tb/r_signal2
+add wave -position end  sim:/timeline_gen_tb/w_clock
+add wave -position end  sim:/timeline_gen_tb/w_event1
+add wave -position end  sim:/timeline_gen_tb/w_event2
+run
+run
+# Can't move the Now cursor.
+quit -sim
+# End time: 17:36:53 on Apr 22,2024, Elapsed time: 0:01:33
+# Errors: 0, Warnings: 2
+# Compile of timeline_gen.vhd was successful.
+# Compile of timeline_gen_tb.vhd failed with 4 errors.
+# 2 compiles, 1 failed with 4 errors.
+# Compile of timeline_gen.vhd was successful.
+# Compile of timeline_gen_tb.vhd failed with 2 errors.
+# 2 compiles, 1 failed with 2 errors.
+# Compile of timeline_gen.vhd was successful.
+# Compile of timeline_gen_tb.vhd failed with 4 errors.
+# 2 compiles, 1 failed with 4 errors.
+# Compile of timeline_gen.vhd was successful.
+# Compile of timeline_gen_tb.vhd was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.timeline_gen_tb
+# vsim -gui work.timeline_gen_tb 
+# Start time: 17:45:11 on Apr 22,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.math_real(body)
+# Loading work.timeline_gen_tb(sim)
+# Loading work.timeline_gen(arch)
+add wave -position end  sim:/timeline_gen_tb/r_clock
+add wave -position end  sim:/timeline_gen_tb/r_signal1
+add wave -position end  sim:/timeline_gen_tb/r_signal2
+add wave -position end  sim:/timeline_gen_tb/w_clock
+add wave -position end  sim:/timeline_gen_tb/w_event1
+add wave -position end  sim:/timeline_gen_tb/w_event2
+run
+# Break key hit
+# Break in Process p_signal1_gen at C:/Users/ACER/Documents/Trabajo/Investigacion/LabQO/QO-Simulations/EventTimelineUnit/timeline_gen_tb.vhd line 69
+quit -sim
+# End time: 17:45:53 on Apr 22,2024, Elapsed time: 0:00:42
+# Errors: 0, Warnings: 5
+# Compile of timeline_gen.vhd was successful.
+# Compile of timeline_gen_tb.vhd was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.timeline_gen_tb
+# vsim -gui work.timeline_gen_tb 
+# Start time: 17:46:24 on Apr 22,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.math_real(body)
+# Loading work.timeline_gen_tb(sim)
+# Loading work.timeline_gen(arch)
+add wave -position end  sim:/timeline_gen_tb/r_clock
+add wave -position end  sim:/timeline_gen_tb/r_signal1
+add wave -position end  sim:/timeline_gen_tb/r_signal2
+add wave -position end  sim:/timeline_gen_tb/w_clock
+add wave -position end  sim:/timeline_gen_tb/w_event1
+add wave -position end  sim:/timeline_gen_tb/w_event2
+run
+# Break key hit
+# Break in Process p_signal1_gen at C:/Users/ACER/Documents/Trabajo/Investigacion/LabQO/QO-Simulations/EventTimelineUnit/timeline_gen_tb.vhd line 70
+quit -sim
+# End time: 17:47:38 on Apr 22,2024, Elapsed time: 0:01:14
+# Errors: 0, Warnings: 2
+# Compile of timeline_gen.vhd was successful.
+# Compile of timeline_gen_tb.vhd was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.timeline_gen_tb
+# vsim -gui work.timeline_gen_tb 
+# Start time: 17:49:32 on Apr 22,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.math_real(body)
+# Loading work.timeline_gen_tb(sim)
+# Loading work.timeline_gen(arch)
+add wave -position end  sim:/timeline_gen_tb/r_clock
+add wave -position end  sim:/timeline_gen_tb/r_signal1
+add wave -position end  sim:/timeline_gen_tb/r_signal2
+add wave -position end  sim:/timeline_gen_tb/w_clock
+add wave -position end  sim:/timeline_gen_tb/w_event1
+add wave -position end  sim:/timeline_gen_tb/w_event2
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+quit -sim
+# End time: 17:53:08 on Apr 22,2024, Elapsed time: 0:03:36
+# Errors: 0, Warnings: 2
